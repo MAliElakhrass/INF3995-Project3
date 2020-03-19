@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="@drawable/music_paper">
+
+    <TextView
+        android:id="@+id/textView_lyrics"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Lyrics"
+        android:textSize="18pt"
+        android:scrollbars="vertical"
+        android:layout_margin="55dp"/>
+</RelativeLayout>

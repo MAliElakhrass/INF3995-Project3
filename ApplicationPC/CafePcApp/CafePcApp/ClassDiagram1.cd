@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CafePcApp.FormLogin">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACAAABAABACAAAACCAAAAAAAEkAAAAAAAAA=</HashCode>
+      <FileName>FormLogin.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="service" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CafePcApp.FormOptions">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAcQABAAGCAEGlBSAASRCgAakIKAIAhAIEhAAhAQCAA=</HashCode>
+      <FileName>FormOptions.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="service" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CafePcApp.Service">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQBADAAASDACAAAAAEAAGAAAQCAAAAQAEAAAACAAA=</HashCode>
+      <FileName>Service.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CafePcApp.UtilJson">
+    <Position X="9" Y="5.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="CafePcApp.UtilJson.Login" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>UtilJson.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="CafePcApp.UtilJson.Password" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>UtilJson.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="CafePcApp.UtilJson.Logs" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>UtilJson.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="CafePcApp.UtilJson.Statistiques" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>UtilJson.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="CafePcApp.UtilJson.SupervisorAccount" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>UtilJson.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAACAAAAAAAiAAAACQAAACAAAAAAA=</HashCode>
+      <FileName>UtilJson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CafePcApp.Utils">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="CafePcApp.Utils.ResponseServer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Utils.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAACAAIAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

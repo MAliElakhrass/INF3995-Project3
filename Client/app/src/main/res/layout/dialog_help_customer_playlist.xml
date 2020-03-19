@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/question_mark">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:textSize="24dp"
+        android:text="Please slide to the right to delete a song.
+In order to read the lyrics, you have to click on the song's album" />
+</android.support.constraint.ConstraintLayout>

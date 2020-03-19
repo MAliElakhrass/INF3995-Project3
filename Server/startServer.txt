@@ -1,0 +1,16 @@
+[Unit]
+Description=Server service
+After=network.target
+After=systemd-user-sessions.service
+After=network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=3
+User=alarm
+ExecStart=/home/alarm/Server
+
+[Install]
+WantedBy=multi-user.target

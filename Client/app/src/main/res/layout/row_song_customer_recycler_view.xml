@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView_Customer_AlbumArt"
+        android:layout_width="133dp"
+        android:layout_height="133dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageView_Customer_AlbumArt"
+        android:id="@+id/customer_constraint"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView_customer_song_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Song Title"
+            android:textSize="36dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/textView_customer_artist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="Artist"
+            android:textSize="24dp"
+            />
+
+        <TextView
+            android:id="@+id/textView_customer_length"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="5 min 24 seconds"
+            android:textSize="24dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
